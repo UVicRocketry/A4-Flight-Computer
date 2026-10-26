@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LAB_PCB_Standard") (type "KiCad") (uri "${KIPRJMOD}/submodule_A4-LAB-PCB-Standard/LAB_PCB_Standard.pretty") (options "") (descr ""))
+)
