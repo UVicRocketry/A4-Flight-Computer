@@ -3,4 +3,5 @@
 	(lib (name "LAB_PCB_Standard") (type "KiCad") (uri "${KIPRJMOD}/submodule_A4-LAB-PCB-Standard/LAB_PCB_Standard.pretty") (options "") (descr ""))
 	(lib (name "A4-Flight-Computer") (type "KiCad") (uri "${KIPRJMOD}/component-library/A4-Flight-Computer.pretty") (options "") (descr ""))
 	(lib (name "CPT_9019A_SMT_TR") (type "KiCad") (uri "${KIPRJMOD}/component-library/CPT_9019A_SMT_TR/CPT_9019A_SMT_TR.pretty") (options "") (descr ""))
+	(lib (name "ST1W008S4ER1500") (type "KiCad") (uri "${KIPRJMOD}/component-library/ST1W008S4ER1500/ST1W008S4ER1500.pretty") (options "") (descr ""))
 )
