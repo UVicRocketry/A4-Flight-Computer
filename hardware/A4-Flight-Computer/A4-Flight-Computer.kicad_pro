@@ -480,7 +480,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -682,7 +682,12 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "I2C": [
+        "SDA",
+        "SCL"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -723,13 +728,21 @@
         "uuid": "77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
       }
     ],
-    "used_designators": "J1-5,J8,R1-4,R6-14,BZ1-2,D1-9,#PWR1-11,#PWR22-27,#PWR31-32,#PWR49-55,U1-3,U5,C1-13,C17,C24-25,VR1,Q1-2,SW2",
+    "used_designators": "J1-5,J8,R1-4,R6-16,BZ1-2,D1-9,#PWR1-36,#PWR49-57,U1-9,C1-25,VR1,Q1-2,SW2",
     "variants": []
   },
   "sheets": [
     [
       "77c41fe8-4bdd-430f-8bd0-4eb0993317e3",
       "A4-Flight-Computer"
+    ],
+    [
+      "a72c79ee-03c0-4ca3-9ea7-3588e992e58f",
+      "Sensors"
+    ],
+    [
+      "aed18c4c-c8d2-4144-b02d-fedeea846887",
+      "SD Card"
     ]
   ],
   "text_variables": {},

@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 22.86 10.16 0)
+			(at 22.86 5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "NVT4858HKZ"
-			(at 22.86 7.62 0)
+			(at 22.86 2.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89,54 +89,6 @@
 			)
 		)
 		(symbol "NVT4858HKZ_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -22.86) (xy 38.1 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 -22.86) (xy 38.1 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at 0 0 0)
 				(length 7.62)
@@ -423,6 +375,20 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "NVT4858HKZ_1_1"
+			(rectangle
+				(start 7.62 1.27)
+				(end 38.1 -19.05)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
