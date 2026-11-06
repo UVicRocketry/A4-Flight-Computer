@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "27379cbc-1583-4c98-ad4c-c978c71b963b")
+	(uuid "d6b39f40-8fe3-4075-bbb5-1eb78b85a5bd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "A4-Flight-Computer:ADXL375"
