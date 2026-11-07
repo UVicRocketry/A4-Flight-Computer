@@ -5,4 +5,5 @@
 	(lib (name "CPT_9019A_SMT_TR") (type "KiCad") (uri "${KIPRJMOD}/component-library/CPT_9019A_SMT_TR/CPT_9019A_SMT_TR.pretty") (options "") (descr ""))
 	(lib (name "ST1W008S4ER1500") (type "KiCad") (uri "${KIPRJMOD}/component-library/ST1W008S4ER1500/ST1W008S4ER1500.pretty") (options "") (descr ""))
 	(lib (name "NVT4858HKZ") (type "KiCad") (uri "${KIPRJMOD}/component-library/NVT4858HKZ/NVT4858HKZ.pretty") (options "") (descr ""))
+	(lib (name "SN74LVC1G17DBVR") (type "KiCad") (uri "${KIPRJMOD}/component-library/SN74LVC1G17DBVR") (options "") (descr ""))
 )
