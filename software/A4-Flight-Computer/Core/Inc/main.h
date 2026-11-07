@@ -59,6 +59,33 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define TIM_SYNC htim3
+#define TIM_PPS_WDG htim6
+#define TIM_BUZZ htim2
+#define ADXL_INT1_Pin GPIO_PIN_4
+#define ADXL_INT1_GPIO_Port GPIOA
+#define ADXL_INT2_Pin GPIO_PIN_5
+#define ADXL_INT2_GPIO_Port GPIOA
+#define LSM6_INT1_Pin GPIO_PIN_6
+#define LSM6_INT1_GPIO_Port GPIOA
+#define LSM6_INT2_Pin GPIO_PIN_7
+#define LSM6_INT2_GPIO_Port GPIOA
+#define BUZZ_OUT_Pin GPIO_PIN_4
+#define BUZZ_OUT_GPIO_Port GPIOC
+#define BMP_INT_Pin GPIO_PIN_0
+#define BMP_INT_GPIO_Port GPIOB
+#define LED1_Pin GPIO_PIN_1
+#define LED1_GPIO_Port GPIOB
+#define LED2_Pin GPIO_PIN_2
+#define LED2_GPIO_Port GPIOB
+#define CAN_SHDN_Pin GPIO_PIN_14
+#define CAN_SHDN_GPIO_Port GPIOB
+#define CAN_STB_Pin GPIO_PIN_15
+#define CAN_STB_GPIO_Port GPIOB
+#define PPS_IN_Pin GPIO_PIN_6
+#define PPS_IN_GPIO_Port GPIOC
+#define SYNC_OUT_Pin GPIO_PIN_7
+#define SYNC_OUT_GPIO_Port GPIOC
 
 /* USER CODE BEGIN Private defines */
 
