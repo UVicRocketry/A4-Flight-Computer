@@ -4,5 +4,6 @@
 	(lib (name "A4-Flight-Computer") (type "KiCad") (uri "${KIPRJMOD}/component-library/A4-Flight-Computer.kicad_sym") (options "") (descr ""))
 	(lib (name "ST1W008S4ER1500") (type "KiCad") (uri "${KIPRJMOD}/component-library/ST1W008S4ER1500/ST1W008S4ER1500.kicad_sym") (options "") (descr ""))
 	(lib (name "NVT4858HKZ") (type "KiCad") (uri "${KIPRJMOD}/component-library/NVT4858HKZ/NVT4858HKZ.kicad_sym") (options "") (descr ""))
+	(lib (name "TLP170AM_V4TPL_E") (type "KiCad") (uri "${KIPRJMOD}/component-library/TLP170AM_V4TPL_E/TLP170AM_V4TPL_E.kicad_sym") (options "") (descr ""))
 	(lib (name "SN74LVC1G17DBVR") (type "KiCad") (uri "${KIPRJMOD}/component-library/SN74LVC1G17DBVR/SN74LVC1G17DBVR.kicad_sym") (options "") (descr ""))
 )
