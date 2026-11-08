@@ -72,6 +72,8 @@ void Error_Handler(void);
 #define LSM6_INT2_GPIO_Port GPIOA
 #define BUZZ_OUT_Pin GPIO_PIN_4
 #define BUZZ_OUT_GPIO_Port GPIOC
+#define BRKAWY_SENSE_Pin GPIO_PIN_5
+#define BRKAWY_SENSE_GPIO_Port GPIOC
 #define BMP_INT_Pin GPIO_PIN_0
 #define BMP_INT_GPIO_Port GPIOB
 #define LED1_Pin GPIO_PIN_1
