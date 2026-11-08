@@ -2211,6 +2211,281 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ECS-.327-9-34QS-TR:ECS-.327-9-34QS-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -0.254 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECS-.327-9-34QS-TR"
+				(at -9.398 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECS__327_9_34QS_TR:XTAL_ECS-.327-9-34QS-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ECS-.327-9-34QS-TR_ECS_Inc..pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "32.768 kHz ±20ppm Crystal 9pF 70 kOhms 2-SMD, No Lead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ECS-.327-9-34QS-TR_ECS_Inc..pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "ECS Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "ECS-.327-9-34QS-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "2018"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/ECS-.327-9-34QS-TR/ECS/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ECS-.327-9-34QS-TR_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.524) (xy -0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy 0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32H5:STM32H523RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4676,6 +4951,316 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TSX-3225_16.0000MF18X-AC0:TSX-3225_16.0000MF18X-AC0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -0.254 9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TSX-3225_16.0000MF18X-AC0"
+				(at -13.716 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TSX_3225_16_0000MF18X_AC0:XTAL_TSX-3225_16.0000MF18X-AC0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://download.epsondevice.com/td/pdf/td_xtal_mhz/TSX-3225_X1E0000210052_en.pdf?_gl=1*9inxv8*_ga*MTcwMTM5NzQ2Ni4xNzk0MDk1Njcy*_ga_2TQLB6HKRY*czE3OTQwOTU2NzEkbzEkZzEkdDE3OTQwOTU5MTQkajI3JGwwJGgw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "16 MHz ±10ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "EPSON"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "TSX-3225 16.0000MF18X-AC0"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/TSX-3225%2016.0000MF18X-AC0/Epson/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TSX-3225_16.0000MF18X-AC0_0_0"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.3368 5.08) (xy -2.3368 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 5.08) (xy -1.397 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 5.08) (xy 1.397 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 5.08) (xy 1.397 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0) (xy -1.397 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 5.08) (xy 2.3368 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRLML0030"
 			(pin_names
 				(offset 0)
@@ -5256,19 +5841,9 @@
 		)
 		(uuid "09cfdcb5-5823-45ea-8367-bcd15bc37b2d")
 	)
-	(text "Need to add oscillators"
-		(exclude_from_sim no)
-		(at 207.518 136.144 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "478dd37e-e8af-462d-9ca0-a6731b0e37fd")
-	)
 	(text "Need to add BRKAWY_SENSE uC pin"
 		(exclude_from_sim no)
-		(at 207.518 139.954 0)
+		(at 259.08 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5319,6 +5894,12 @@
 		(uuid "0bbf9529-33d9-4356-9527-1fbd478e8f06")
 	)
 	(junction
+		(at 217.17 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f5d8a2a-4900-4bb4-99f4-c306751ff295")
+	)
+	(junction
 		(at 203.2 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5329,6 +5910,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1202d68b-ef9c-4925-bafa-b0927047ad63")
+	)
+	(junction
+		(at 167.64 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b1bdd5d-4a80-4035-84c3-f774184ad4a9")
 	)
 	(junction
 		(at 97.79 186.69)
@@ -5367,6 +5954,12 @@
 		(uuid "2304f1de-d97c-47f8-a038-542263f26181")
 	)
 	(junction
+		(at 201.93 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d222c33-2613-4dc8-9b42-c01e7a950832")
+	)
+	(junction
 		(at 57.15 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5379,10 +5972,22 @@
 		(uuid "38ae4788-843c-4bce-89ea-7eaa245b6013")
 	)
 	(junction
+		(at 167.64 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a942619-8095-4660-9870-2de08853504a")
+	)
+	(junction
 		(at 156.21 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "442dd0f8-c7d2-48de-b01a-c4755d0d9f9b")
+	)
+	(junction
+		(at 163.83 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46856cd4-33b5-4f00-b17e-19a7f013dc50")
 	)
 	(junction
 		(at 203.2 25.4)
@@ -5457,6 +6062,12 @@
 		(uuid "9ce4beb6-42dc-4c42-8721-110d93e4f35b")
 	)
 	(junction
+		(at 201.93 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d699132-ae13-4215-b2f0-383ea3c3bc4c")
+	)
+	(junction
 		(at 78.74 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5487,6 +6098,12 @@
 		(uuid "b8086836-fc78-4a03-a204-523e3bef9ad9")
 	)
 	(junction
+		(at 144.78 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf212596-e170-4ad0-862a-a27b4b37c372")
+	)
+	(junction
 		(at 38.1 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5503,6 +6120,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d37a4dfb-8736-4d04-b346-e6b8fba36e75")
+	)
+	(junction
+		(at 163.83 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e27ec0-6d0e-4531-9e2f-e044442670ce")
 	)
 	(junction
 		(at 66.04 20.32)
@@ -5628,6 +6251,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b80f8b-5ae1-4c35-bffd-c910cf8111b8")
+	)
+	(wire
+		(pts
 			(xy 92.71 90.17) (xy 107.95 90.17)
 		)
 		(stroke
@@ -5705,6 +6338,16 @@
 			(type default)
 		)
 		(uuid "0c42df4f-40fe-4193-973f-eb3784569dbf")
+	)
+	(wire
+		(pts
+			(xy 217.17 129.54) (xy 217.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4a9c53-accb-45a4-844d-3bfbae4e9d62")
 	)
 	(wire
 		(pts
@@ -6008,6 +6651,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 127) (xy 214.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317b2dc9-6349-43ed-b860-4da19453d1d8")
+	)
+	(wire
+		(pts
 			(xy 41.91 123.19) (xy 39.37 123.19)
 		)
 		(stroke
@@ -6298,6 +6951,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 138.43) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598007b6-efa9-4503-bfd8-87c06dcfe0bf")
+	)
+	(wire
+		(pts
 			(xy 78.74 185.42) (xy 78.74 186.69)
 		)
 		(stroke
@@ -6305,6 +6968,16 @@
 			(type default)
 		)
 		(uuid "5a6f0781-9242-45eb-9665-83d934e30ec3")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a952303-73fc-4e30-98c4-a396c22e075c")
 	)
 	(wire
 		(pts
@@ -6388,6 +7061,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 135.89) (xy 201.93 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cb313c-8cd7-44b3-80bc-956e0cd326ed")
+	)
+	(wire
+		(pts
+			(xy 201.93 135.89) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f4c06f-efca-4fab-abf8-b64d03c22928")
+	)
+	(wire
+		(pts
 			(xy 31.75 30.48) (xy 25.4 30.48)
 		)
 		(stroke
@@ -6425,6 +7118,16 @@
 			(type default)
 		)
 		(uuid "70f897eb-5f2b-4b30-ade9-089151b494cb")
+	)
+	(wire
+		(pts
+			(xy 201.93 127) (xy 201.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71541c56-9839-401d-954b-ce921fbca01e")
 	)
 	(wire
 		(pts
@@ -6528,6 +7231,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 127) (xy 201.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c46df2f-9e34-4dd8-8c03-64cb8f840be5")
+	)
+	(wire
+		(pts
 			(xy 72.39 45.72) (xy 74.93 45.72)
 		)
 		(stroke
@@ -6535,6 +7248,16 @@
 			(type default)
 		)
 		(uuid "7c81ff64-8775-47dd-b17c-2292adfd4955")
+	)
+	(wire
+		(pts
+			(xy 162.56 127) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1fd21e-c67c-40b2-afb7-8fa0f9379af0")
 	)
 	(wire
 		(pts
@@ -6658,6 +7381,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 127) (xy 201.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f0662b-6828-46a7-acca-0123ef9e8bf3")
+	)
+	(wire
+		(pts
+			(xy 135.89 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8778693c-61fc-421c-b205-8fdb8a4628a7")
+	)
+	(wire
+		(pts
 			(xy 228.6 35.56) (xy 228.6 34.29)
 		)
 		(stroke
@@ -6695,6 +7438,16 @@
 			(type default)
 		)
 		(uuid "8d1829d9-6df0-4959-afdb-b26abd884c23")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f285bfb-cb34-4f46-bbd6-acb8e094fcdd")
 	)
 	(wire
 		(pts
@@ -6775,6 +7528,16 @@
 			(type default)
 		)
 		(uuid "9f4d57e2-4607-4ce3-b413-367c4e5d36e3")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 163.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a077cef6-b8b7-48df-b03b-4b3d33bf55ca")
 	)
 	(wire
 		(pts
@@ -6898,6 +7661,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 132.08) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf72b11-6b6d-4f69-8095-32c6b6591d29")
+	)
+	(wire
+		(pts
 			(xy 64.77 45.72) (xy 64.77 46.99)
 		)
 		(stroke
@@ -7008,6 +7781,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 135.89) (xy 217.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b929ec6d-64f4-4fec-bc7a-ce0bf36d422d")
+	)
+	(wire
+		(pts
+			(xy 167.64 127) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b977f492-3e6e-4dd3-8e43-a778dea2a7db")
+	)
+	(wire
+		(pts
 			(xy 66.04 20.32) (xy 74.93 20.32)
 		)
 		(stroke
@@ -7065,6 +7858,16 @@
 			(type default)
 		)
 		(uuid "be688731-1f17-4185-b441-5b339b58ec2b")
+	)
+	(wire
+		(pts
+			(xy 163.83 138.43) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be94b496-4b09-4107-b884-bc5d7c366a2f")
 	)
 	(wire
 		(pts
@@ -7138,6 +7941,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 127) (xy 144.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f01ef2-887a-48c1-8a49-eff2a72ad2a3")
+	)
+	(wire
+		(pts
+			(xy 162.56 134.62) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c362ac9f-813a-4ba6-9e98-9e9ddcdd3896")
+	)
+	(wire
+		(pts
 			(xy 92.71 85.09) (xy 107.95 85.09)
 		)
 		(stroke
@@ -7205,6 +8028,16 @@
 			(type default)
 		)
 		(uuid "c8fa57bd-05e5-4f60-b2cd-da3b80ee1ecd")
+	)
+	(wire
+		(pts
+			(xy 163.83 134.62) (xy 163.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91b65e4-b0f8-4fb5-aa3b-c16a39cf4ad2")
 	)
 	(wire
 		(pts
@@ -7326,6 +8159,16 @@
 		)
 		(uuid "d63c1bd8-82cc-4dcd-a61d-5b64dc274ac3")
 	)
+	(wire
+		(pts
+			(xy 167.64 127) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6439081-6ba3-48bc-bffc-46270bf3d72f")
+	)
 	(bus
 		(pts
 			(xy 119.38 33.02) (xy 158.75 33.02)
@@ -7345,6 +8188,16 @@
 			(type default)
 		)
 		(uuid "d92f6fea-d082-4980-90f9-78e767bb5d75")
+	)
+	(wire
+		(pts
+			(xy 217.17 127) (xy 227.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9696879-9cf6-468f-9a64-614b890a0fae")
 	)
 	(wire
 		(pts
@@ -7478,6 +8331,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 132.08) (xy 163.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca80a5b-ade3-4f29-bd25-7209a9e6d4d8")
+	)
+	(wire
+		(pts
 			(xy 247.65 57.15) (xy 248.92 57.15)
 		)
 		(stroke
@@ -7525,6 +8388,16 @@
 			(type default)
 		)
 		(uuid "f52462af-029c-45f2-968c-e94db139cd84")
+	)
+	(wire
+		(pts
+			(xy 201.93 134.62) (xy 201.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f569670a-53f6-4346-a7e3-a10cb7851f5e")
 	)
 	(wire
 		(pts
@@ -7636,6 +8509,16 @@
 		)
 		(uuid "03461098-dc2e-4e9d-a926-fca537cfda52")
 	)
+	(label "HSE_OUT"
+		(at 177.8 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "044795dc-ced4-471c-a9d0-534dd8c092fe")
+	)
 	(label "CAN_RX"
 		(at 107.95 123.19 180)
 		(effects
@@ -7686,6 +8569,16 @@
 		)
 		(uuid "13d07ae2-61cd-440a-9b5e-cea343120ad5")
 	)
+	(label "LSE_IN"
+		(at 193.04 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17bb9004-605a-4d7e-8f62-d9c5b9c0c071")
+	)
 	(label "ADXL_INT_1"
 		(at 107.95 64.77 180)
 		(effects
@@ -7715,6 +8608,16 @@
 			(justify right bottom)
 		)
 		(uuid "371aaeca-5b55-41bf-a079-9fd2c20d4e8d")
+	)
+	(label "HSE_IN"
+		(at 135.89 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e7c034c-9fcb-41d3-a85e-368040545de5")
 	)
 	(label "USB_DP"
 		(at 238.76 57.15 180)
@@ -8116,6 +9019,16 @@
 		)
 		(uuid "b610a5de-a92b-41ed-a97a-566276f2d54e")
 	)
+	(label "LSE_OUT"
+		(at 227.33 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b65e83d5-1534-448a-a766-e4d80e2e3870")
+	)
 	(label "CAN_TX"
 		(at 147.32 95.25 0)
 		(effects
@@ -8409,6 +9322,233 @@
 			(project "A4-Flight-Computer"
 				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TSX-3225_16.0000MF18X-AC0:TSX-3225_16.0000MF18X-AC0")
+		(at 154.94 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b1ac595-d98d-43ff-8dab-be21b2185ec0")
+		(property "Reference" "Y1"
+			(at 154.94 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSX-3225_16.0000MF18X-AC0"
+			(at 154.94 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TSX_3225_16_0000MF18X_AC0:XTAL_TSX-3225_16.0000MF18X-AC0"
+			(at 154.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://download.epsondevice.com/td/pdf/td_xtal_mhz/TSX-3225_X1E0000210052_en.pdf?_gl=1*9inxv8*_ga*MTcwMTM5NzQ2Ni4xNzk0MDk1Njcy*_ga_2TQLB6HKRY*czE3OTQwOTU2NzEkbzEkZzEkdDE3OTQwOTU5MTQkajI3JGwwJGgw"
+			(at 154.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "16 MHz ±10ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+			(at 154.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "EPSON"
+			(at 154.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 154.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "TSX-3225 16.0000MF18X-AC0"
+			(at 154.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/TSX-3225%2016.0000MF18X-AC0/Epson/view-part/"
+			(at 154.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 154.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "34b0f187-f99d-4c73-acae-0d08c2dbd311")
+		)
+		(pin "4"
+			(uuid "5778449c-51af-409f-b299-9505ffe4c0ce")
+		)
+		(pin "2"
+			(uuid "35b6b18f-486e-4cb2-bac1-30c08be55633")
+		)
+		(pin "1"
+			(uuid "1492196c-d87d-4039-9e25-616195e7af99")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd1dad1-e7cc-44f0-a50d-ed70414b1f43")
+		(property "Reference" "#PWR054"
+			(at 167.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f1f62b5-da0a-4d71-93dd-ed4af87191cf")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9266,6 +10406,87 @@
 			(project "A4-Flight-Computer"
 				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 144.78 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3216d537-a231-482a-8066-e6a6af5810bf")
+		(property "Reference" "C27"
+			(at 142.24 130.9369 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12pF"
+			(at 142.24 133.4769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 144.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+		)
+		(pin "1"
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10669,6 +11890,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 217.17 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71828b49-733a-4a27-80fa-9798c50408bf")
+		(property "Reference" "C30"
+			(at 219.71 130.9369 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12pF"
+			(at 219.71 133.4769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+			(at 217.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 217.17 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+		)
+		(pin "1"
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 243.84 57.15 90)
 		(unit 1)
@@ -10985,6 +12288,161 @@
 			(project "A4-Flight-Computer"
 				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECS-.327-9-34QS-TR:ECS-.327-9-34QS-TR")
+		(at 209.55 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dbcb8e7-cda3-4c62-a372-577267dd152f")
+		(property "Reference" "Y2"
+			(at 209.55 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-.327-9-34QS-TR"
+			(at 209.55 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECS__327_9_34QS_TR:XTAL_ECS-.327-9-34QS-TR"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ECS-.327-9-34QS-TR_ECS_Inc..pdf"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "32.768 kHz ±20ppm Crystal 9pF 70 kOhms 2-SMD, No Lead"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ECS-.327-9-34QS-TR_ECS_Inc..pdf"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "ECS Inc."
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "ECS-.327-9-34QS-TR"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2018"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/ECS-.327-9-34QS-TR/ECS/view-part/"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 209.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "cb1f2a76-e575-4572-a4a5-01f08bef977c")
+		)
+		(pin "2"
+			(uuid "135134e4-07e5-4d7a-9ed1-3fee5fa16668")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -12270,6 +13728,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 167.64 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb703aa7-7dce-4292-aa7d-7ea7cfaf0bfa")
+		(property "Reference" "C28"
+			(at 170.18 130.9369 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12pF"
+			(at 170.18 133.4769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+		)
+		(pin "1"
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 45.72 0)
 		(unit 1)
@@ -12758,6 +14299,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 201.93 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7bcc023-caf4-4c3f-969b-27c69d9f73df")
+		(property "Reference" "#PWR055"
+			(at 201.93 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0718eca-8fdd-49e4-9e44-ceba2a0906bf")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 243.84 52.07 90)
 		(unit 1)
@@ -12909,6 +14528,88 @@
 			(project "A4-Flight-Computer"
 				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 201.93 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdcae011-0195-4e8f-992b-6862cb393a46")
+		(property "Reference" "C29"
+			(at 199.39 130.9369 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12pF"
+			(at 199.39 133.4769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+			(at 201.93 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 201.93 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+		)
+		(pin "1"
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "C29")
 					(unit 1)
 				)
 			)

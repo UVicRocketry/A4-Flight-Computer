@@ -7,4 +7,6 @@
 	(lib (name "NVT4858HKZ") (type "KiCad") (uri "${KIPRJMOD}/component-library/NVT4858HKZ/NVT4858HKZ.pretty") (options "") (descr ""))
 	(lib (name "TLP170AM_V4TPL_E") (type "KiCad") (uri "${KIPRJMOD}/component-library/TLP170AM_V4TPL_E/TLP170AM_V4TPL_E.pretty") (options "") (descr ""))
 	(lib (name "SN74LVC1G17DBVR") (type "KiCad") (uri "${KIPRJMOD}/component-library/SN74LVC1G17DBVR") (options "") (descr ""))
+	(lib (name "ECS__327_9_34QS_TR") (type "KiCad") (uri "${KIPRJMOD}/component-library/ECS__327_9_34QS_TR") (options "") (descr ""))
+	(lib (name "TSX_3225_16_0000MF18X_AC0") (type "KiCad") (uri "${KIPRJMOD}/component-library/TSX_3225_16_0000MF18X_AC0") (options "") (descr ""))
 )
