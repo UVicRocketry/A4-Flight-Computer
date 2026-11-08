@@ -3378,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A4-Flight-Computer:BMP581"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3460,7 +3460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.546 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -3541,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3857,7 +3857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A4-Flight-Computer:BMP581"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.7852 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4095,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A4-Flight-Computer:BMP581"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.4852 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4177,7 +4177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 81.5848 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4337,7 +4337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A4-Flight-Computer:BMP581"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.8952 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4419,7 +4419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.386 53.594 90)
 			(hide yes)
 			(show_name no)

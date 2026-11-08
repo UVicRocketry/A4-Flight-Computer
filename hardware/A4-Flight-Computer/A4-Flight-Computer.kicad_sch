@@ -5863,7 +5863,7 @@
 	)
 	(text "SYNC_OUT driver"
 		(exclude_from_sim no)
-		(at 212.344 95.758 0)
+		(at 217.424 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6198,10 +6198,6 @@
 		(uuid "5c9cc5d9-6764-4432-ba69-4fc6d098d692")
 	)
 	(no_connect
-		(at 41.91 90.17)
-		(uuid "6e8bb2c8-76c9-4c11-b187-c129b7d74a92")
-	)
-	(no_connect
 		(at 92.71 57.15)
 		(uuid "a7f6dbcb-c259-4f78-8c39-80542984eeca")
 	)
@@ -6214,7 +6210,7 @@
 		(uuid "ea9086ff-6d10-4d41-bf10-d8f31d640d96")
 	)
 	(no_connect
-		(at 201.93 90.17)
+		(at 207.01 88.9)
 		(uuid "ebcb4ede-54dd-494d-a203-44da2d3118cb")
 	)
 	(no_connect
@@ -6561,7 +6557,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 222.25 86.36)
+			(xy 229.87 85.09) (xy 227.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6648,6 +6644,16 @@
 			(type default)
 		)
 		(uuid "301734c8-a257-4dc3-8fe8-10f780241c01")
+	)
+	(wire
+		(pts
+			(xy 27.94 90.17) (xy 41.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306008d3-f70c-4b53-a603-492179e704a9")
 	)
 	(wire
 		(pts
@@ -7431,7 +7437,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 91.44) (xy 222.25 91.44)
+			(xy 229.87 90.17) (xy 227.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7771,7 +7777,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 87.63) (xy 201.93 87.63)
+			(xy 204.47 86.36) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7851,7 +7857,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 226.06 88.9)
+			(xy 227.33 87.63) (xy 231.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8011,7 +8017,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 191.77 87.63)
+			(xy 184.15 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8101,7 +8107,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 83.82) (xy 224.79 86.36)
+			(xy 229.87 82.55) (xy 229.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8178,6 +8184,16 @@
 			(type default)
 		)
 		(uuid "d68aae0d-ccec-4f95-92b7-8bdc46e02125")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d867a9d7-a9d6-4652-a900-c307541ff0c5")
 	)
 	(wire
 		(pts
@@ -8371,7 +8387,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 88.9) (xy 246.38 88.9)
+			(xy 238.76 87.63) (xy 251.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8491,7 +8507,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 93.98) (xy 224.79 91.44)
+			(xy 229.87 92.71) (xy 229.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8900,7 +8916,7 @@
 		(uuid "82e9cd48-17dd-4086-80c7-a83309b2a9db")
 	)
 	(label "SENS_SYNC"
-		(at 246.38 88.9 180)
+		(at 251.46 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9069,8 +9085,18 @@
 		)
 		(uuid "be4f2ccf-9a95-407a-962c-cd96033aad85")
 	)
+	(label "BRKAWY"
+		(at 27.94 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c109f6b7-8743-4e87-9f24-e5742321c2d0")
+	)
 	(label "SYNC_OUT"
-		(at 180.34 87.63 0)
+		(at 184.15 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9188,6 +9214,16 @@
 			(justify left bottom)
 		)
 		(uuid "eac1c017-7c1c-43f9-b570-c3eb383027b6")
+	)
+	(label "BRKAWY"
+		(at 147.32 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb4dd79c-b54e-4dee-9d32-3611604edca3")
 	)
 	(label "SDMMC_CMD"
 		(at 191.77 59.69 180)
@@ -9556,7 +9592,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 83.82 0)
+		(at 229.87 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9567,7 +9603,7 @@
 		(fields_autoplaced yes)
 		(uuid "149f6b1a-1000-44e1-80de-c78bf3449a4b")
 		(property "Reference" "#PWR015"
-			(at 224.79 87.63 0)
+			(at 229.87 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,7 +9614,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 224.79 78.74 0)
+			(at 229.87 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9588,7 +9624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 83.82 0)
+			(at 229.87 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9599,7 +9635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 83.82 0)
+			(at 229.87 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9610,7 +9646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 83.82 0)
+			(at 229.87 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9980,7 +10016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 32.7152 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10060,7 +10096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.494 81.534 90)
 			(hide yes)
 			(show_name no)
@@ -10142,7 +10178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 229.5652 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10192,7 +10228,7 @@
 	)
 	(symbol
 		(lib_id "SN74LVC1G17DBVR:SN74LVC1G17DBVR")
-		(at 212.09 88.9 0)
+		(at 217.17 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10202,7 +10238,7 @@
 		(dnp no)
 		(uuid "2d72ea60-48ce-4151-bbe1-1b4524e31666")
 		(property "Reference" "U2"
-			(at 212.09 80.772 0)
+			(at 217.17 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10212,7 +10248,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G17DBVR"
-			(at 212.09 83.312 0)
+			(at 217.17 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10222,7 +10258,7 @@
 			)
 		)
 		(property "Footprint" "SN74LVC1G17DBVR:SOT95P280X145-5N"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,7 +10270,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lvc1g17"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10246,7 +10282,7 @@
 			)
 		)
 		(property "Description" "Single 1.65-V to 5.5-V buffer with Schmitt-Trigger inputs"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10258,7 +10294,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "http://www.ti.com/lit/gpn/sn74lvc1g17"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10270,7 +10306,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10282,7 +10318,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC1G17DBVR"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10294,7 +10330,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/SN74LVC1G17DBVR/Texas+Instruments/view-part/"
-			(at 212.09 88.9 0)
+			(at 217.17 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,7 +10480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11117,7 +11153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.8952 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11439,7 +11475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 204.1652 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11811,7 +11847,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 195.58 87.63 90)
+		(at 200.66 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11822,7 +11858,7 @@
 		(fields_autoplaced yes)
 		(uuid "714f7a2d-157b-44b8-8d60-d2d4882d90ac")
 		(property "Reference" "R8"
-			(at 195.58 81.28 90)
+			(at 200.66 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11832,7 +11868,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 195.58 83.82 90)
+			(at 200.66 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11841,8 +11877,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
-			(at 195.834 86.614 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 200.914 85.344 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +11889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 87.63 0)
+			(at 200.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11864,7 +11900,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 195.58 87.63 0)
+			(at 200.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +11959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12052,7 +12088,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 93.98 0)
+		(at 229.87 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12063,7 +12099,7 @@
 		(fields_autoplaced yes)
 		(uuid "7358ba5f-72a0-4ec7-a357-d832c958b546")
 		(property "Reference" "#PWR016"
-			(at 224.79 100.33 0)
+			(at 229.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12074,7 +12110,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 99.06 0)
+			(at 229.87 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12084,7 +12120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 93.98 0)
+			(at 229.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12095,7 +12131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 93.98 0)
+			(at 229.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12106,7 +12142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 93.98 0)
+			(at 229.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12161,7 +12197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13649,7 +13685,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 229.87 88.9 90)
+		(at 234.95 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13660,7 +13696,7 @@
 		(fields_autoplaced yes)
 		(uuid "b592a6f1-ab72-4976-b333-53e91d19f9e6")
 		(property "Reference" "R9"
-			(at 229.87 82.55 90)
+			(at 234.95 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13670,7 +13706,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 229.87 85.09 90)
+			(at 234.95 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13679,8 +13715,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
-			(at 230.124 87.884 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 235.204 86.614 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13691,7 +13727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 88.9 0)
+			(at 234.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,7 +13738,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 229.87 88.9 0)
+			(at 234.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,7 +13798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14013,7 +14049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.0652 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14094,7 +14130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.4152 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14567,7 +14603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15008,7 +15044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 26.3652 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15089,7 +15125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.1152 29.21 0)
 			(hide yes)
 			(show_name no)

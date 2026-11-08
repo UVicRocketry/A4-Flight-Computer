@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e485713b-0482-4043-a122-4e08831e47cb")
+	(uuid "2fd2ab83-c81f-4a4e-b165-da63905eb1c7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "A4-Flight-Computer:ESD2CANFD24"
@@ -7078,7 +7078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.854 103.124 90)
 			(hide yes)
 			(show_name no)
@@ -7483,7 +7483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AM_V4TPL_E:RELAY_TLP170AM_V4TPL_E"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.4852 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7917,7 +7917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.854 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -8363,7 +8363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 65.0748 69.85 0)
 			(hide yes)
 			(show_name no)
