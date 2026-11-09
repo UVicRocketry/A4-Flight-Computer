@@ -722,21 +722,15 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pins : ADXL_INT1_Pin ADXL_INT2_Pin LSM6_INT1_Pin LSM6_INT2_Pin */
   GPIO_InitStruct.Pin = ADXL_INT1_Pin|ADXL_INT2_Pin|LSM6_INT1_Pin|LSM6_INT2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : BRKAWY_SENSE_Pin */
-  GPIO_InitStruct.Pin = BRKAWY_SENSE_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  /*Configure GPIO pins : BMP_INT_Pin BRKWAY_SENSE_Pin */
+  GPIO_InitStruct.Pin = BMP_INT_Pin|BRKWAY_SENSE_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(BRKAWY_SENSE_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : BMP_INT_Pin */
-  GPIO_InitStruct.Pin = BMP_INT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(BMP_INT_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pins : LED1_Pin LED2_Pin CAN_SHDN_Pin CAN_STB_Pin */
   GPIO_InitStruct.Pin = LED1_Pin|LED2_Pin|CAN_SHDN_Pin|CAN_STB_Pin;
@@ -744,6 +738,25 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI0_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI4_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI5_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI5_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI6_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI6_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI7_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI7_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI10_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(EXTI10_IRQn);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
