@@ -23,6 +23,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "timer_events.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -184,7 +186,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLL1_SOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 1;
-  RCC_OscInitStruct.PLL.PLLN = 10;
+  RCC_OscInitStruct.PLL.PLLN = 30;
   RCC_OscInitStruct.PLL.PLLP = 2;
   RCC_OscInitStruct.PLL.PLLQ = 2;
   RCC_OscInitStruct.PLL.PLLR = 2;
@@ -207,14 +209,14 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB3CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
   {
     Error_Handler();
   }
 
   /** Configure the programming delay
   */
-  __HAL_FLASH_SET_PROGRAM_DELAY(FLASH_PROGRAMMING_DELAY_0);
+  __HAL_FLASH_SET_PROGRAM_DELAY(FLASH_PROGRAMMING_DELAY_2);
 }
 
 /**
@@ -276,7 +278,7 @@ static void MX_I2C3_Init(void)
 
   /* USER CODE END I2C3_Init 1 */
   hi2c3.Instance = I2C3;
-  hi2c3.Init.Timing = 0x10909CEC;
+  hi2c3.Init.Timing = 0x608087CA;
   hi2c3.Init.OwnAddress1 = 0;
   hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -473,6 +475,12 @@ static void MX_TIM2_Init(void)
   }
   /* USER CODE BEGIN TIM2_Init 2 */
 
+  // this is the timer for the buzzer. Don't start it here to save power. It will be started/stopped only when the buzzer is needed.
+  // if (HAL_TIM_Base_Start(&htim2) != HAL_OK)
+  // {
+  //   Error_Handler();
+  // }
+
   /* USER CODE END TIM2_Init 2 */
   HAL_TIM_MspPostInit(&htim2);
 
@@ -499,9 +507,9 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 8-1;
+  htim3.Init.Prescaler = 4-1;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim3.Init.Period = 9999;
+  htim3.Init.Period = 59999;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
@@ -536,7 +544,7 @@ static void MX_TIM3_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM2;
-  sConfigOC.Pulse = 2500;
+  sConfigOC.Pulse = 15000;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
@@ -544,6 +552,17 @@ static void MX_TIM3_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN TIM3_Init 2 */
+
+  // This is the timer for the PPS signal. Start it immediately, along with enabling the timer-up and input-capture interrupts. Output compare will be enabled after the PPS signal is first stabilized.
+  if (HAL_TIM_Base_Start(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  __HAL_TIM_ENABLE_IT(&htim3, TIM_IT_UPDATE);
+  if (HAL_TIM_IC_Start_IT(&htim3, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
 
   /* USER CODE END TIM3_Init 2 */
   HAL_TIM_MspPostInit(&htim3);
@@ -583,6 +602,13 @@ static void MX_TIM6_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN TIM6_Init 2 */
+
+  // this is the timer for the PPS watchdog. Start it immediately and enable the timer-up interrupt.
+  if (HAL_TIM_Base_Start(&htim6) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  __HAL_TIM_ENABLE_IT(&htim6, TIM_IT_UPDATE);
 
   /* USER CODE END TIM6_Init 2 */
 
@@ -726,6 +752,16 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+{
+	if (htim->Instance == TIM_SYNC.Instance &&
+		htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)
+	{
+		uint32_t capture = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1);
+		TIM_SYNC_Capture_IRQHandler(capture);
+	}
+}
+
 /* USER CODE END 4 */
 
  /* MPU Configuration */
@@ -780,6 +816,14 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     HAL_IncTick();
   }
   /* USER CODE BEGIN Callback 1 */
+
+  if (htim->Instance == TIM_SYNC.Instance) {
+    TIM_SYNC_Elapsed_IRQHandler();
+  }
+
+  if (htim->Instance == TIM_PPS_WDG.Instance) {
+    TIM_PPS_WDG_Elapsed_IRQHandler();
+  }
 
   /* USER CODE END Callback 1 */
 }

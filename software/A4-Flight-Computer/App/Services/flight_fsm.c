@@ -88,10 +88,10 @@ flight_state_t flight_fsm_transition(flight_event_t event) {
     return flight_fsm.current_state;
 }
 
-flight_state_t flight_fsm_get_current_state() {
+flight_state_t flight_fsm_get_current_state(void) {
     return flight_fsm.current_state;
 }
 
-flight_state_t flight_fsm_get_previous_state() {
+flight_state_t flight_fsm_get_previous_state(void) {
     return flight_fsm.previous_state;
 }
