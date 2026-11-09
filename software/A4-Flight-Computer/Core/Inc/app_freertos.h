@@ -66,12 +66,12 @@ extern osThreadId_t receiveCANTaskHandle;
 
 /* USER CODE END FunctionPrototypes */
 
-void StartSensorSampleTask(void *argument);
-void StartBuzzerTask(void *argument);
-void StartStorageTask(void *argument);
-void StartFlightStateMessageTask(void *argument);
-void StartSendCANTask(void *argument);
-void StartReceiveCANTask(void *argument);
+extern void StartSensorSampleTask(void *argument);
+extern void StartBuzzerTask(void *argument);
+extern void StartStorageTask(void *argument);
+extern void StartFlightStateMessageTask(void *argument);
+extern void StartSendCANTask(void *argument);
+extern void StartReceiveCANTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
