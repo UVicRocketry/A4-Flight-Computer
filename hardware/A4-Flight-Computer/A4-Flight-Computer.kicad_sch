@@ -6166,6 +6166,10 @@
 		(uuid "18be1767-981d-4f9d-8119-c512eefd555c")
 	)
 	(no_connect
+		(at 41.91 90.17)
+		(uuid "210a3d11-e33f-459d-b276-b6ec79fba9b8")
+	)
+	(no_connect
 		(at 158.75 77.47)
 		(uuid "2380b541-9a49-4ff2-a742-da8ed6e46db2")
 	)
@@ -6184,10 +6188,6 @@
 	(no_connect
 		(at 92.71 80.01)
 		(uuid "5445af2b-951b-4367-8e61-cb04b8a3523c")
-	)
-	(no_connect
-		(at 92.71 115.57)
-		(uuid "54a57766-9b30-44b6-b60f-74cefb9620b8")
 	)
 	(no_connect
 		(at 41.91 80.01)
@@ -6304,6 +6304,16 @@
 			(type default)
 		)
 		(uuid "087784cb-94f0-43da-ace4-87ba53f9f8b0")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a6d1ec-4916-4a1e-965c-ff3e658bc372")
 	)
 	(wire
 		(pts
@@ -6644,16 +6654,6 @@
 			(type default)
 		)
 		(uuid "301734c8-a257-4dc3-8fe8-10f780241c01")
-	)
-	(wire
-		(pts
-			(xy 27.94 90.17) (xy 41.91 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306008d3-f70c-4b53-a603-492179e704a9")
 	)
 	(wire
 		(pts
@@ -9086,12 +9086,12 @@
 		(uuid "be4f2ccf-9a95-407a-962c-cd96033aad85")
 	)
 	(label "BRKAWY"
-		(at 27.94 90.17 0)
+		(at 107.95 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c109f6b7-8743-4e87-9f24-e5742321c2d0")
 	)
@@ -11993,10 +11993,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca2434a")
 		)
 		(pin "1"
-			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d387")
 		)
 		(instances
 			(project "A4-Flight-Computer"
@@ -13832,10 +13832,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca2434b")
 		)
 		(pin "1"
-			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d388")
 		)
 		(instances
 			(project "A4-Flight-Computer"
@@ -14637,10 +14637,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "70b85b61-bed0-4827-bc18-d2d11ca24349")
+			(uuid "70b85b61-bed0-4827-bc18-d2d11ca2434c")
 		)
 		(pin "1"
-			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d386")
+			(uuid "1df6f38c-2bc5-4b56-8c4e-4d639fd4d389")
 		)
 		(instances
 			(project "A4-Flight-Computer"

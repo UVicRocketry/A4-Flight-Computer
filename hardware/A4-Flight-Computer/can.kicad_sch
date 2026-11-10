@@ -7951,10 +7951,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "58215271-538c-4afa-b42d-004a74306017")
+			(uuid "58215271-538c-4afa-b42d-004a74306018")
 		)
 		(pin "1"
-			(uuid "de633337-7fd4-4637-b10e-9cf80b92ce3c")
+			(uuid "de633337-7fd4-4637-b10e-9cf80b92ce3d")
 		)
 		(instances
 			(project "A4-Flight-Computer"
