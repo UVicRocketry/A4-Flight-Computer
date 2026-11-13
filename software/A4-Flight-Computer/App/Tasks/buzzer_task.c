@@ -6,6 +6,7 @@
 
  #include "buzzer_task.h"
  #include "app_freertos.h"
+#include "main.h"
 
 /**
 * @brief Function implementing the buzzerTask thread.
@@ -17,6 +18,7 @@ void StartBuzzerTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    osDelay(500);
+    HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
   }
 }
