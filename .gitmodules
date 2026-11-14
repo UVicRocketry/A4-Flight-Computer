@@ -1,0 +1,3 @@
+[submodule "hardware/A4-Flight-Computer/submodule_A4-LAB-PCB-Standard"]
+	path = hardware/A4-Flight-Computer/submodule_A4-LAB-PCB-Standard
+	url = https://github.com/UVicRocketry/A4-LAB-PCB-Standard.git

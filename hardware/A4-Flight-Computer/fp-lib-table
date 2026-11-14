@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LAB_PCB_Standard") (type "KiCad") (uri "${KIPRJMOD}/submodule_A4-LAB-PCB-Standard/LAB_PCB_Standard.pretty") (options "") (descr ""))
+	(lib (name "A4-Flight-Computer") (type "KiCad") (uri "${KIPRJMOD}/component-library/A4-Flight-Computer.pretty") (options "") (descr ""))
+	(lib (name "CPT_9019A_SMT_TR") (type "KiCad") (uri "${KIPRJMOD}/component-library/CPT_9019A_SMT_TR/CPT_9019A_SMT_TR.pretty") (options "") (descr ""))
+	(lib (name "ST1W008S4ER1500") (type "KiCad") (uri "${KIPRJMOD}/component-library/ST1W008S4ER1500/ST1W008S4ER1500.pretty") (options "") (descr ""))
+	(lib (name "NVT4858HKZ") (type "KiCad") (uri "${KIPRJMOD}/component-library/NVT4858HKZ/NVT4858HKZ.pretty") (options "") (descr ""))
+	(lib (name "TLP170AM_V4TPL_E") (type "KiCad") (uri "${KIPRJMOD}/component-library/TLP170AM_V4TPL_E/TLP170AM_V4TPL_E.pretty") (options "") (descr ""))
+	(lib (name "SN74LVC1G17DBVR") (type "KiCad") (uri "${KIPRJMOD}/component-library/SN74LVC1G17DBVR") (options "") (descr ""))
+	(lib (name "ECS__327_9_34QS_TR") (type "KiCad") (uri "${KIPRJMOD}/component-library/ECS__327_9_34QS_TR") (options "") (descr ""))
+	(lib (name "TSX_3225_16_0000MF18X_AC0") (type "KiCad") (uri "${KIPRJMOD}/component-library/TSX_3225_16_0000MF18X_AC0") (options "") (descr ""))
+)
