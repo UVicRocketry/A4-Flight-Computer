@@ -5841,16 +5841,6 @@
 		)
 		(uuid "09cfdcb5-5823-45ea-8367-bcd15bc37b2d")
 	)
-	(text "Need to add BRKAWY_SENSE uC pin"
-		(exclude_from_sim no)
-		(at 259.08 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b635a39-bb41-47e8-8729-02548fcc7053")
-	)
 	(text "USB-C Connector and 3.3V regulator"
 		(exclude_from_sim no)
 		(at 248.92 21.844 0)
