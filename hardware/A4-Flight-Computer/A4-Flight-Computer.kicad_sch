@@ -5830,6 +5830,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Decoupling caps for STM32"
 		(exclude_from_sim no)
@@ -5843,7 +5958,7 @@
 	)
 	(text "USB-C Connector and 3.3V regulator"
 		(exclude_from_sim no)
-		(at 248.92 21.844 0)
+		(at 265.684 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5932,6 +6047,12 @@
 		(uuid "1fbf2bbe-188c-45a8-b176-04849077a4a7")
 	)
 	(junction
+		(at 27.94 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "205d9055-2cf8-4809-b6e8-72b7225e96d5")
+	)
+	(junction
 		(at 72.39 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5948,6 +6069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d222c33-2613-4dc8-9b42-c01e7a950832")
+	)
+	(junction
+		(at 237.49 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34977d23-4af2-40ec-92eb-6ed871ebd8d8")
 	)
 	(junction
 		(at 57.15 30.48)
@@ -6002,6 +6129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b971f52-72ad-46ec-b731-d64f658705bf")
+	)
+	(junction
+		(at 247.65 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76688e15-402f-43c0-bae3-3465628990dd")
 	)
 	(junction
 		(at 228.6 25.4)
@@ -6277,7 +6410,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 248.92 36.83)
+			(xy 246.38 36.83) (xy 247.65 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7157,13 +7290,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 120.65) (xy 39.37 123.19)
+			(xy 27.94 120.65) (xy 27.94 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7310f8b8-f29c-416a-a88c-c78ae3c865c7")
+	)
+	(wire
+		(pts
+			(xy 27.94 123.19) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737f2878-85f8-46e5-a557-4f2138bd3405")
 	)
 	(wire
 		(pts
@@ -7224,6 +7367,16 @@
 			(type default)
 		)
 		(uuid "7bb7ff43-cd44-43c2-8513-cfa500254088")
+	)
+	(wire
+		(pts
+			(xy 247.65 30.48) (xy 247.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c33635d-4428-46de-8aad-799aad13b2b3")
 	)
 	(wire
 		(pts
@@ -7544,16 +7697,6 @@
 			(type default)
 		)
 		(uuid "a0f1f54a-327b-4907-b253-83c797f5ba4b")
-	)
-	(wire
-		(pts
-			(xy 27.94 123.19) (xy 39.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10f2cb6-f35b-428c-9f61-3785746987fc")
 	)
 	(wire
 		(pts
@@ -8017,6 +8160,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 36.83) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87bb68a-9f08-451c-852a-d491b4a9c85c")
+	)
+	(wire
+		(pts
 			(xy 210.82 25.4) (xy 203.2 25.4)
 		)
 		(stroke
@@ -8227,7 +8380,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 120.65) (xy 39.37 120.65)
+			(xy 41.91 120.65) (xy 27.94 120.65)
 		)
 		(stroke
 			(width 0)
@@ -13915,6 +14068,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 247.65 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd8fa410-3c12-4051-956d-7ae01bcc91cd")
+		(property "Reference" "#FLG01"
+			(at 247.65 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 247.65 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04118aae-96c3-41c8-be04-40b7854fc21b")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 97.79 171.45 90)
 		(unit 1)
@@ -14922,6 +15153,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 237.49 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb724850-54e0-4137-833c-54b3d3d67cb6")
+		(property "Reference" "#FLG02"
+			(at 237.49 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 237.49 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 237.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccaae3a2-f780-4891-bade-9608bc2eb521")
+		)
+		(instances
+			(project "A4-Flight-Computer"
+				(path "/77c41fe8-4bdd-430f-8bd0-4eb0993317e3"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 135.89 177.8 90)
 		(unit 1)
@@ -15247,7 +15556,7 @@
 	)
 	(sheet
 		(at 158.75 74.93)
-		(size 17.78 23.495)
+		(size 19.05 23.495)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15293,7 +15602,7 @@
 				(justify left)
 			)
 		)
-		(pin "CAN" input
+		(pin "CAN{CAN+,CAN-}" input
 			(at 158.75 77.47 180)
 			(uuid "fe0ca5f8-981e-4b2b-b6b3-aa1521fe730b")
 			(effects
@@ -15409,7 +15718,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C" input
+		(pin "I2C{SCL,SDA}" input
 			(at 158.75 33.02 180)
 			(uuid "b8a21835-15e4-4874-a574-87ae8507859c")
 			(effects

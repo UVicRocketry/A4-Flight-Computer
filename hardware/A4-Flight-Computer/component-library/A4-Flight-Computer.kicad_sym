@@ -62,7 +62,7 @@
 			)
 		)
 		(symbol "ADXL375_0_0"
-			(pin unspecified line
+			(pin power_in line
 				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "VDDIO"
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "GND"
@@ -98,7 +98,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "GND"
@@ -116,7 +116,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "GND"
@@ -134,7 +134,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "VS"
@@ -152,7 +152,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "CS"
@@ -170,7 +170,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "INT1"
@@ -188,7 +188,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "INT2"
@@ -206,7 +206,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "SDO"
@@ -224,7 +224,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "SDA/SDI"
@@ -242,7 +242,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "SCL"
@@ -337,7 +337,7 @@
 			)
 		)
 		(symbol "BMP581_0_0"
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "VDDIO"
@@ -355,7 +355,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "SCK"
@@ -373,7 +373,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "VSS"
@@ -391,7 +391,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "SDI/SDx"
@@ -409,7 +409,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "SDO"
@@ -427,7 +427,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "CS"
@@ -445,7 +445,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "INT"
@@ -463,7 +463,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "VSS"
@@ -481,7 +481,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "VSS"
@@ -499,7 +499,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "VDD"
@@ -883,7 +883,7 @@
 			)
 		)
 		(symbol "LSM6DSO32_0_0"
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 11.43 0)
 				(length 2.54)
 				(name "SD0/SA0"
@@ -901,7 +901,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 8.89 0)
 				(length 2.54)
 				(name "SDx"
@@ -919,7 +919,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 6.35 0)
 				(length 2.54)
 				(name "SCx"
@@ -937,7 +937,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "INT1"
@@ -955,7 +955,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 2.54 22.86 270)
 				(length 2.54)
 				(name "VDDIO"
@@ -973,7 +973,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 2.54 -7.62 90)
 				(length 2.54)
 				(name "GND"
@@ -991,7 +991,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
@@ -1009,7 +1009,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 22.86 270)
 				(length 2.54)
 				(name "VDD"
@@ -1027,7 +1027,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 12.7 11.43 180)
 				(length 2.54)
 				(name "INT2"
@@ -1045,7 +1045,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 8.89 180)
 				(length 2.54)
 				(name "CS"
@@ -1063,7 +1063,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 12.7 6.35 180)
 				(length 2.54)
 				(name "SCL"
@@ -1081,7 +1081,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "SDA"
@@ -1188,7 +1188,7 @@
 					(color 255 255 194 1)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "TXD"
@@ -1206,7 +1206,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
@@ -1224,7 +1224,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 7.62 270)
 				(length 2.54)
 				(name "VCC"
@@ -1242,7 +1242,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "RXD"
@@ -1260,7 +1260,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "SHDN"
@@ -1278,7 +1278,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "CANL"
@@ -1296,7 +1296,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "CANH"
@@ -1314,7 +1314,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "STB"

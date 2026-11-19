@@ -3619,6 +3619,7 @@
 	(symbol
 		(lib_id "Regulator_Linear:AZ1117CH2-1.8")
 		(at 241.3 90.17 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3626,7 +3627,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eea0dcec-6084-4664-96de-273d01aef2a5")
 		(property "Reference" "U8"
 			(at 241.3 83.82 0)

@@ -366,7 +366,7 @@
 						(color 255 255 194 1)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "TXD"
@@ -384,7 +384,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -402,7 +402,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "VCC"
@@ -420,7 +420,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "RXD"
@@ -438,7 +438,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "SHDN"
@@ -456,7 +456,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "CANL"
@@ -474,7 +474,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "CANH"
@@ -492,7 +492,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "STB"
@@ -1625,7 +1625,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LAB_PCB_Standard:LAB_PCB_With_Header"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5185,7 +5185,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.2992 102.87) (xy 161.2992 104.14)
+			(xy 161.29 102.87) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5445,7 +5445,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 143.5192 105.41)
+			(xy 123.19 105.41) (xy 143.51 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5555,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.2992 102.87) (xy 160.0292 102.87)
+			(xy 161.29 102.87) (xy 160.02 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5595,7 +5595,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 143.5192 100.33)
+			(xy 123.19 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5910,7 +5910,7 @@
 		)
 		(uuid "f43e890d-0f2c-4d3b-9d8c-8d5c6a09af93")
 	)
-	(hierarchical_label "CAN"
+	(hierarchical_label "CAN{CAN+,CAN-}"
 		(shape input)
 		(at 110.49 39.37 180)
 		(effects
@@ -6246,7 +6246,7 @@
 	)
 	(symbol
 		(lib_id "A4-Flight-Computer:ESD2CANFD24")
-		(at 151.1392 102.87 90)
+		(at 151.13 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6256,7 +6256,7 @@
 		(dnp no)
 		(uuid "17e91966-d5f4-45db-a68a-ea7862befe18")
 		(property "Reference" "D9"
-			(at 152.1552 111.506 90)
+			(at 152.146 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6266,7 +6266,7 @@
 			)
 		)
 		(property "Value" "ESD2CANFD24"
-			(at 152.1552 109.22 90)
+			(at 152.146 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6276,7 +6276,7 @@
 			)
 		)
 		(property "Footprint" "A4-Flight-Computer:ESD2CANFD24-SOT23"
-			(at 167.9032 101.854 0)
+			(at 167.894 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6287,7 +6287,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd2canfd24-q1.pdf"
-			(at 164.6012 100.33 0)
+			(at 164.592 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +6298,7 @@
 			)
 		)
 		(property "Description" "24V, 2-Channel ESD Protection Diode"
-			(at 169.9352 100.838 0)
+			(at 169.926 100.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +6484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.2992 104.14 0)
+		(at 161.29 104.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6496,7 +6496,7 @@
 		(fields_autoplaced yes)
 		(uuid "29ed8d22-61fd-4f33-9973-cbe2e1573a61")
 		(property "Reference" "#PWR047"
-			(at 161.2992 110.49 0)
+			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6507,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.2992 109.22 0)
+			(at 161.29 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6517,7 +6517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.2992 104.14 0)
+			(at 161.29 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.2992 104.14 0)
+			(at 161.29 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6539,7 +6539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.2992 104.14 0)
+			(at 161.29 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
