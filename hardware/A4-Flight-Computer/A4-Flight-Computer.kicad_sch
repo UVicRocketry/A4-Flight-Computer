@@ -8948,7 +8948,7 @@
 		)
 		(uuid "5adcf93d-8fad-456f-a0ab-40892e7d1a25")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 107.95 82.55 180)
 		(effects
 			(font
@@ -9028,7 +9028,7 @@
 		)
 		(uuid "7e1f8e65-1ae0-4a34-8907-621d31a4e859")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 238.76 52.07 180)
 		(effects
 			(font

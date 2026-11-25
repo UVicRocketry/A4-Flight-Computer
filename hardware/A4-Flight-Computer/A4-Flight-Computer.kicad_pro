@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 0.9652,
+          "width": 0.2032
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -211,7 +211,12 @@
       ],
       "track_widths": [
         0.0,
-        1.0
+        0.1671,
+        0.2,
+        0.3,
+        0.4,
+        1.0,
+        1.215
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -514,10 +519,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -525,23 +530,90 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "CAN",
+        "name": "50-ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3447,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.09,
+        "diff_pair_gap": 0.2139,
+        "diff_pair_width": 0.1671,
+        "name": "CAN_Bottom",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1671,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.09,
+        "diff_pair_gap": 0.2426,
+        "diff_pair_width": 0.1384,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN_Top",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1384,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.09,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_500mA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.215,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.4,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.2,
+        "name": "Power_Strain_Gauges",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.5,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.09,
+        "diff_pair_gap": 0.1534,
+        "diff_pair_width": 0.2276,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.2276,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -554,12 +626,52 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "CAN",
-        "pattern": "/CAN_H+"
+        "netclass": "CAN_Top",
+        "pattern": "*CAN+"
       },
       {
-        "netclass": "CAN",
-        "pattern": "/CAN_L-"
+        "netclass": "CAN_Top",
+        "pattern": "*CAN-"
+      },
+      {
+        "netclass": "50-ohm",
+        "pattern": "/SDMMC_CKIN"
+      },
+      {
+        "netclass": "50-ohm",
+        "pattern": "/BRKAWY"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*"
+      },
+      {
+        "netclass": "Power_500mA",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Power_Strain_Gauges",
+        "pattern": "*6.5V_SENS"
+      },
+      {
+        "netclass": "Power_500mA",
+        "pattern": "*D10*"
+      },
+      {
+        "netclass": "50-ohm",
+        "pattern": "/CAN and EXTERNAL/GPS_PPS"
+      },
+      {
+        "netclass": "50-ohm",
+        "pattern": "/SENS_SYNC"
+      },
+      {
+        "netclass": "50-ohm",
+        "pattern": "/SD Card/(CLK_CARD|CMD_CARD|D0_CARD|D1_CARD|D2_CARD|D3_CARD)"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_D*"
       }
     ]
   },
