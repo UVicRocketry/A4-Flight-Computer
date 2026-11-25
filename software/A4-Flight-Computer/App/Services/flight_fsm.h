@@ -10,7 +10,8 @@
 #ifndef FLIGHT_FSM_H
 #define FLIGHT_FSM_H
 
-typedef enum {
+typedef enum
+{
     FLIGHT_STATE_INIT,
     FLIGHT_STATE_GROUND_HANDLING,
     FLIGHT_STATE_PRE_LAUNCH,
@@ -22,7 +23,8 @@ typedef enum {
     FLIGHT_STATE_RECOVERY
 } flight_state_t;
 
-typedef enum {
+typedef enum
+{
     FLIGHT_EVENT_BOOT,
     FLIGHT_EVENT_ARM,
     FLIGHT_EVENT_LAUNCH,
@@ -33,7 +35,8 @@ typedef enum {
     FLIGHT_EVENT_TOUCHDOWN
 } flight_event_t;
 
-typedef struct {
+typedef struct
+{
     flight_state_t previous_state;
     flight_state_t current_state;
 } flight_fsm_t;

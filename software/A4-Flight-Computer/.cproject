@@ -67,6 +67,7 @@
 									<listOptionValue builtIn="false" value="../App/Inc"/>
 									<listOptionValue builtIn="false" value="../App/Services"/>
 									<listOptionValue builtIn="false" value="../App/Tasks"/>
+									<listOptionValue builtIn="false" value="../Drivers/BSP/A4FlightComputer"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.44613876" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
