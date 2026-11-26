@@ -8,4 +8,5 @@
 	(lib (name "SN74LVC1G17DBVR") (type "KiCad") (uri "${KIPRJMOD}/component-library/SN74LVC1G17DBVR/SN74LVC1G17DBVR.kicad_sym") (options "") (descr ""))
 	(lib (name "ECS-.327-9-34QS-TR") (type "KiCad") (uri "${KIPRJMOD}/component-library/ECS__327_9_34QS_TR/ECS-.327-9-34QS-TR.kicad_sym") (options "") (descr ""))
 	(lib (name "TSX-3225_16.0000MF18X-AC0") (type "KiCad") (uri "${KIPRJMOD}/component-library/TSX_3225_16_0000MF18X_AC0/TSX-3225_16.0000MF18X-AC0.kicad_sym") (options "") (descr ""))
+	(lib (name "SMTB-0927-TW-R") (type "KiCad") (uri "${KIPRJMOD}/component-library/SMTB_0927_TW_R/SMTB-0927-TW-R.kicad_sym") (options "") (descr ""))
 )

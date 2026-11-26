@@ -6440,7 +6440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "75R"
 			(at 65.532 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "820R"
 			(at 55.118 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
