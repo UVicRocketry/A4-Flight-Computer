@@ -8,6 +8,7 @@
 #define A4_FLIGHTCOMPUTER_BSP_H
 
 #include <stdint.h>
+#include <stdbool.h>
 
 /* --- Buzzer --- */
 void BSP_Buzzer_On();
@@ -22,5 +23,9 @@ void BSP_LED_1_TOGGLE();
 void BSP_LED_2_ON();
 void BSP_LED_2_OFF();
 void BSP_LED_2_TOGGLE();
+
+/* --- SD Card --- */
+uint32_t BSP_SD_Init(void);
+bool BSP_SD_Ready(void);
 
 #endif /* A4_FLIGHTCOMPUTER_BSP_H */

@@ -63,7 +63,7 @@ osThreadId_t storageTaskHandle;
 const osThreadAttr_t storageTask_attributes = {
   .name = "storageTask",
   .priority = (osPriority_t) osPriorityNormal,
-  .stack_size = 128 * 4
+  .stack_size = 512 * 4
 };
 /* Definitions for flightStateMessageTask */
 osThreadId_t flightStateMessageTaskHandle;

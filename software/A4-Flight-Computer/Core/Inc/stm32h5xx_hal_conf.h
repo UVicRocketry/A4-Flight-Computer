@@ -252,7 +252,7 @@
 
 /* ################## SDIO peripheral configuration ######################### */
 
-#define USE_SDIO_TRANSCEIVER          0U
+#define USE_SDIO_TRANSCEIVER          1U
 #define SDIO_MAX_IO_NUMBER            7U
 
 /* Includes ----------------------------------------------------------------------------------------------------------*/
