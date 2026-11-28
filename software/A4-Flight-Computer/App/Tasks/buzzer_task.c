@@ -9,8 +9,8 @@
 #include "vehicle_state.h"
 #include "a4_flightcomputer_bsp.h"
 
-#define BUZZER_FREQUENCY_HZ 4000U // 4 kHz
-#define MORSE_UNIT_MS 80U
+#define BUZZER_FREQUENCY_HZ 2500U // 4 kHz
+#define MORSE_UNIT_MS 120U        // 5 w.p.m. = 240ms
 #define STATUS_PERIOD_MS 2000U
 #define STARTUP_PAUSE_MS 1000U
 
@@ -27,13 +27,16 @@ static void PlayBatteryVoltage(uint16_t voltage_mV);
 static void PlayMML(const char *mml);
 
 // Startup tune defined as a MML (Music Macro Language) string.
-char startup_mml[] = "t200o4 l4e  aa>c+c+  <a2ee  e.l8ebag+f+  e2.l4e  aa>c+c+  <a2ea  g+f+8g+8ad+  e2.r"; // Samsung washer
-// char startup_mml[] = "t104o5  l16def+4a4f+8ef+e  d2&d8f+4a8  b2>d8c+4<a8  f+4.l16gf+e4.de  f+4a4f+e8.d8.e  d2&d8f+4a8  b2a4f+4  f+2e2  ded1"; // C.H.
+char startup_mml[] = "t200o5 l4e  aa>c+c+  <a2ee  e.l8ebag+f+  e2.l4e  aa>c+c+  <a2ea  g+f+8g+8ad+  e2.r"; // Samsung washer
+//char startup_mml[] = "t120o6 e-8^e-24<e-24^e-24>b-4a-4^a-12e-12^e-12 <b-2"; // Windows XP start
+//char startup_mml[] = "t104o5  l16def+4a4f+8ef+e  d2&d8f+4a8  b2>d8c+4<a8  f+4.l16gf+e4.de  f+4a4f+e8.d8.e  d2&d8f+4a8  b2a4f+4  f+2e2  ded1"; // C.H.
 //char startup_mml[] = "t160v120a8a8ab+b2>c2d2<a1.ra8a8ab+l2b>ef+a1.r4l8<eeaaa4b2>c4ccl2d<a1.>bgf+l4f+gg2e1.r<a8a8ab+b2>e2f+2d1.r<a8a8ab+l2b>ef+a1.<bl1g&g4b8>c8d<a>ec<b2gf+4g4g&g2."; // RoR
-// Smash mouth
+//  Smash mouth
 //char startup_mml[] = "t120v120l8o4g4>d<bb4agg>c4<bbaagrg>d<bbaagge&e2rggg>d<bbaagg>cc<bbaagg>d4<bba4gga4e4.rgg.d16ggg16g16g16g16ggg.g16gg16g16gg16g16g16g16gb16g.b16b16>dc<b16a16aaa.g16bggd16d16gge16d.b16>d<b16>e<b16>d<b16>e<b16>dc<baag16ag4&g16d16g16g16gg16g16gg4rr16d16b16g16gg16g16ee4r4bg4g16e16gg4g16e16gg4g4b4.bg4g16e16gg4g16e16gg4g4b4.b4>d4c<baag2ggagba4.ag4a4be2";
-// He's a pirate
-//char startup_mml[] = "t200d4d8d4d8d4d8d8d8d8d4d8d4d8d4d8d8d8d8d4d8d4d8d4d8d8<a8>c8<f4f4f8a8a+4a+4a+8>d8<a4a4a8g8a8a4.a8>c8<f4f4a+8a+8a4a4>c8c8<a4a4a8g8f2a8>c8<f4f4a8a8a+4a+4>d8d8d4d4f8e8f8d4.d8e8<a+4a+4a+4>f8d4.d8f8<a4a4>d8<b8a2>a8>c8<f4f4f8a8a+4a+4a+8>d8<a4a4a8g8a8a4.a8>c8<f4f4a+8a+8a4a4>c8c8c4c4<a8>c8<f2a8>c8<f4f4a8a8a+4a+4>d8d8d4d4f8e8f8d4.d8e8<a+4a+4a+4>f8d4.d8f8<a4a4>d8c+8<a4>";
+//  He's a pirate
+//char startup_mml[] = "t200o5 l8d4dd4d d4dddd d4dd4d d4dddd d4dd4d d4dd<a^>c d4d4de f4f4fg e4e4dc cd4r<a>c d4d4de f4f4fg e4e4dc d4.rac d4d4df g4g4ga b-4b-4ag ad4rde f4f4g4 ad4rdf e4e4ad e4.rrr";
+
+char success_mml[] = "t180o6 f+16a+4";
 
 /**
  * @brief Function implementing the buzzerTask thread.
@@ -65,7 +68,9 @@ void StartBuzzerTask(void *argument)
   // play the startup tune here
 
   PlayMML(startup_mml);
-  BSP_Buzzer_Stop();
+
+  osDelay(STATUS_PERIOD_MS);
+  PlayMML(success_mml);
 
   osDelay(STATUS_PERIOD_MS);
 
@@ -93,6 +98,22 @@ void StartBuzzerTask(void *argument)
       BSP_Buzzer_Start(BUZZER_FREQUENCY_HZ);
       osDelay(100U);
       BSP_Buzzer_Stop();
+      osDelay(100U);
+
+      // play a lower tone here if there is a self-test error. The number of tones should be equal to the number of self-test errors.
+      if (vehicle_state.self_test_error_bits != SELF_TEST_ERROR_NONE)
+      {
+        for (uint8_t i = 0; i < 8; i++)
+        {
+          if (vehicle_state.self_test_error_bits & (1 << i))
+          {
+            BSP_Buzzer_Start(BUZZER_FREQUENCY_HZ / 4);
+            osDelay(200U);
+            BSP_Buzzer_Stop();
+            osDelay(100U);
+          }
+        }
+      }
 
       BSP_LED_1_TOGGLE();
       BSP_LED_2_TOGGLE();
@@ -278,22 +299,23 @@ static void PlayMML(const char *mml)
           mml++;
         }
       }
-
-      // check for dot
-      if (*mml == '.')
-      {
-        note_length = (note_length * 3) / 2; // increase by 1.5x
-        mml++;
-      }
-
       if (note_length == 0)
       {
         note_length = default_length;
       }
       note_duration_ms = (60000U / tempo) * (4U / note_length);
 
+      // check for dot
+      if (*mml == '.')
+      {
+        note_duration_ms = (note_duration_ms * 3) / 2; // increase by 1.5x
+        mml++;
+      }
+
       BSP_Buzzer_Stop();
       osDelay(note_duration_ms);
+
+      legato = false; // reset legato flag after each note or pause
       break;
     case 'A':
     case 'B':
@@ -402,19 +424,19 @@ static void PlayMML(const char *mml)
         }
       }
 
-      // check for dot
-      if (*mml == '.')
-      {
-        note_length = (note_length * 3) / 2; // increase by 1.5x
-        mml++;
-      }
-
       if (note_length == 0)
       {
         note_length = default_length;
       }
 
       note_duration_ms = (60000U * 4U) / (tempo * note_length);
+
+      // check for dot
+      if (*mml == '.')
+      {
+        note_duration_ms = (note_duration_ms * 3) / 2; // increase by 1.5x
+        mml++;
+      }
 
       if (!legato)
       {
@@ -424,14 +446,16 @@ static void PlayMML(const char *mml)
 
       BSP_Buzzer_Start(note_frequency_hz);
 
-      osDelay(note_duration_ms - 25U); // subtract the gap time from the note duration
+      osDelay(note_duration_ms - (legato ? 0 : 25U)); // subtract the gap time from the note duration
+
+      legato = false; // reset legato flag after each note or pause
       break;
     default:
       // unrecognized character, skip it
       mml++;
       break;
     }
-
-    legato = false; // reset legato flag after each note or pause
   }
+
+  BSP_Buzzer_Stop();
 }
